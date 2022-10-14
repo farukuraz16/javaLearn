@@ -1,4 +1,4 @@
-package j12_Loops;
+package j15_Arrays;
 
 public class c {
 }
