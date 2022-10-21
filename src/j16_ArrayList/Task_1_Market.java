@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Task1 {
+public class Task_1_Market {
     public static void main(String[] args) {
         /* TASK :
          * Bir bakkalın 7 günlük tüm kazançlarını günlük olarak gösteren bir program yazınız.

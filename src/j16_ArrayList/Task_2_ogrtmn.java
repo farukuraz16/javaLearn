@@ -3,7 +3,7 @@ package j16_ArrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Task2 {
+public class Task_2_ogrtmn {
     public static void main(String[] args) {
          /* TASK :
          Bir öğretmenden girmek istediği kadar notu alınız, ve

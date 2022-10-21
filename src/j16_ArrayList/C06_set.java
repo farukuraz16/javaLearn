@@ -14,5 +14,7 @@ public class C06_set {
 
         // System.out.println(listSehir.set(11, "pataGONYA"));//olmayan index set edilirse RET veririr.
         System.out.println("listSehir = " + listSehir);
+
+        //System.out.println(listSehir.set(3, "Angara",2,"isntabul"));//set metodu çoklu çalışmaz.
     }
 }
