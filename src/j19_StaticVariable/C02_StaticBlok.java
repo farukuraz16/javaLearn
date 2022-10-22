@@ -6,6 +6,7 @@ package j19_StaticVariable;
         */
 public class C02_StaticBlok {
 static String isim;
+
     static{
         System.out.println("2. static blok çalıştı");
         isim="Javacan";

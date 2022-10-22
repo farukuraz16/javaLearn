@@ -23,7 +23,7 @@ public class C03_Student {//main olmayan sadece student obj create atmek için p
         System.out.println("fiziksel zindelik iyidir");
     }
     @Override
-    public String toString() {//obj referans değeri print etmemesi için obj datalarını  stringe ceviren method
+   public String toString() {//obj referans değeri print etmemesi için obj datalarını  stringe ceviren method
         return            "\nad='" + ad + '\'' +
                 "\nsoyad='" + soyad + '\'' +
                 "\nsınıf=" + sınıf +
@@ -32,4 +32,7 @@ public class C03_Student {//main olmayan sadece student obj create atmek için p
                 "\ntakdir=" + takdir
                 ;
 
-}}
+}
+
+}
+

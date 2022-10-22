@@ -9,7 +9,7 @@ public class C03_StudentRunner {
         ogrc1.okulNo=1001;
         ogrc1.ortalama=77;
         ogrc1.takdir=false;
-        System.out.println("ogrc1 = " + ogrc1);//referans değerlerini verir
+       System.out.println("ogrc1 = " + ogrc1);//referans değerlerini verir
         ogrc1.mezuniyet();
 
 
