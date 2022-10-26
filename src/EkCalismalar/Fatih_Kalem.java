@@ -21,5 +21,16 @@ public class Fatih_Kalem {
         this.renk = renk;
         this.uc = uc;
 
+
+    }
+
+    @Override
+    public String toString() {
+        return "Fatih_Kalem{" +
+                "marka='" + marka + '\'' +
+                ", fiyat=" + fiyat +
+                ", renk='" + renk + '\'' +
+                ", uc=" + uc +
+                '}';
     }
 }

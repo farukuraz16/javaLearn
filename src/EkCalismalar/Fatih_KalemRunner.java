@@ -16,5 +16,7 @@ public class Fatih_KalemRunner {
         System.out.println("Adel.renk = " + Adel.renk);
         System.out.println("Adel.fiyat = " + Adel.fiyat);
 
+        System.out.println("Adel = " + Adel);
+
     }
 }

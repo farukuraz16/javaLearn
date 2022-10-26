@@ -29,4 +29,13 @@ public class C05_Arac {//obj kalıphanesi
         this.maxHız = maxHız;
         this.model = model;
         System.out.println("agam bu yazıyı okuduysan 2p'li cons. call edilmiştir :) ");
-    }}
+    }
+
+    @Override
+    public String toString() {
+        return "C05_Arac{" +
+                "maxHız=" + maxHız +
+                ", model='" + model + '\'' +
+                '}';
+    }
+}
