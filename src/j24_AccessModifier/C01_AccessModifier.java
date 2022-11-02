@@ -42,6 +42,6 @@ public class C01_AccessModifier {
         System.out.println("protectedMetot'dan agaya selam");
             }
 
-            C01_AccessModifier obj3 = new C01_AccessModifier();//private olduğu için kendi classından call edilebildi.
+         //   C01_AccessModifier obj3 = new C01_AccessModifier();//private olduğu için kendi classından call edilebildi.
 }
 
