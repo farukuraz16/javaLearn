@@ -15,7 +15,7 @@ public class C02_DoWhileLoop {
             sayi = sc.nextInt();
 
 
-            sayi++;
+         //   sayi++;
         } while (sayi >= 17);
         System.out.println(sayi + " için kazandınız... :) ");
 
