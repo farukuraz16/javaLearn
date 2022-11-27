@@ -19,7 +19,24 @@ public class Task07 {
      */
 
     public static void main(String[] args) {
+        HashMap<String,Integer> animals = new HashMap<>();
+        animals.put("Lion", 1);
+        animals.put("Tiger", 2);
+        animals.put("Elephant", 3);
+        animals.put("Cat", 4);
+        animals.put("Dog", 5);
 
+        System.out.println(returnKey(animals));
+
+    }
+
+    private static ArrayList returnKey(HashMap<String, Integer> animals) {
+    ArrayList<String> keys = new ArrayList<>();
+
+        for (String e:animals.keySet()) {
+            keys.add(e);
+        }
+    return keys; 
     }
 }
 

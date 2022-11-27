@@ -1,7 +1,8 @@
 package JAVA_LEARN.j36_Map;
 
-import java.util.HashMap;
-import java.util.Scanner;
+import java.awt.*;
+import java.util.*;
+import java.util.List;
 
 public class Task04 {
 
@@ -22,9 +23,30 @@ public class Task04 {
      * İpucu : "." özel karakter olduğu için "\\." şeklinde split ediniz.
      * */
 
-
-
     public static void main(String[] args) {
+
+        HashMap<String, Integer> countWords = new HashMap<>();
+        //Scanner dat = new Scanner(System.in);
+        //System.out.println("enter your words= ");
+        //String userEnter = dat.nextLine();
+        String userEnter = "Ali gel. Ali okula koş. Koş Ali koş.";
+        ArrayList<String> sentences = new ArrayList<>(Arrays.asList(userEnter.split("\\.")));
+        System.out.println(sentences);
+        ArrayList<String> words = new ArrayList<>();
+        ArrayList<String> arr = new ArrayList<>();
+        for (int i = 0; i < sentences.size(); i++) {
+            arr = new ArrayList<>(Arrays.asList(sentences.get(i).split(" ")));
+            for (int j = 0; j < arr.size(); j++) {
+
+
+
+            }
+
+
+        }
+
+        // System.out.println(sentences);
+
 
     }
 

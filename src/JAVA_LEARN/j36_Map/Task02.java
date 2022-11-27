@@ -12,6 +12,27 @@ public class Task02 {
          print eden code create ediniz
          */
 
+        HashMap<String,String> person1 = new HashMap<>();
+        person1.put("isim", "Haluk Levent");
+        person1.put("email", "haluklevent@gmail.com");
+        person1.put("adres", "Üsküdar, İstanbul");
+        person1.put("telefon", "05003003030");
+        System.out.println("kartVizit = " + person1);
+
+        HashMap<String,String> person2 = new HashMap<>();
+        person2.put("isim", "Teoman");
+        person2.put("email", "teoman@gmail.com");
+        person2.put("adres", "Kadıköy, İstanbul");
+        person2.put("telefon", "05004004040");
+        System.out.println("kartVizit = " + person2);
+
+        HashMap<String,HashMap<String,String>> kartVisitList = new HashMap<>();
+        kartVisitList.put("Haluk Levent", person1);
+        kartVisitList.put("Teoman", person2);
+        System.out.println(kartVisitList);
+        System.out.println("kartVisitList.get(\"Teoman\").get(\"adres\") = " + kartVisitList.get("Teoman").get("adres"));
+
+
 
     }
 }

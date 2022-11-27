@@ -1,5 +1,6 @@
 package JAVA_LEARN.j36_Map;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -27,10 +28,13 @@ public class Task11 {
 
         Map<String,Integer> myMap = new HashMap<>();
         String arr[] = str.split(" ");
+        System.out.println(Arrays.toString(arr));
 
         for (int i = 0; i < arr.length; i++) {
             if(myMap.containsKey(arr[i])) {
+                //todo-->>>>????
                 myMap.put(arr[i],myMap.get(arr[i])+1);
+
             }else {
                 myMap.put(arr[i], 1);
             }
