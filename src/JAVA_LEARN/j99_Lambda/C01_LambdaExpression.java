@@ -104,6 +104,7 @@ printElFunctional1(sayi);
     }
 
     public static void yazdır (int a){//normal, Allah'ın methodu... tek aksiyonlu.. seed method... refere edilecek method..
+
         System.out.print(a+" ");
             }
 
