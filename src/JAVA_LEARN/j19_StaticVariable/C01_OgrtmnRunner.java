@@ -9,6 +9,7 @@ public class C01_OgrtmnRunner {
         //hc1.okul = "kabadaş";//static variable obj ile call edilmez
         System.out.println("hc1.okul = " + hc1.okul);
 
+
         C01_Ogrtmn.okul="Kabataş Lisesi";//static değeri update oldu
 
         C01_Ogrtmn hc2 = new C01_Ogrtmn("bekir", 7);
