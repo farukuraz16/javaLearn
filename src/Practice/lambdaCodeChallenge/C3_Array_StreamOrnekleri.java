@@ -14,13 +14,16 @@ public class C3_Array_StreamOrnekleri {
         //Array ler collection sinifinda degillerdir..set ve MAp ler gibi degildir..
         // kullanabilmek icin donusum yapilmalidir
 
-        Integer arr1 [] ={1,5,-5,6,12,-8,9,3,4};
+        int[] arr1 ={1,5,-5,6,12,-8,9,3,4};
+        ortalama(arr1);
+
 
 
     }
     //S1: arrayin elemanlarini bir liste yazdiralim
 
     public static List<Integer> listele(Integer [] arr){
+
         return Arrays.stream(arr).collect(Collectors.toList());
     }
 
@@ -34,6 +37,7 @@ public class C3_Array_StreamOrnekleri {
     // S3: Array in elemanlarinin ortalamasini bulalim yazdir
 
     public static void ortalama (int [] arr){
+
         Arrays.stream(arr).average().ifPresent(System.out::println);
     }
 

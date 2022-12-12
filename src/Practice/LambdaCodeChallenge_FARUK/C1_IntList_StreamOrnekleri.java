@@ -63,11 +63,29 @@ public class C1_IntList_StreamOrnekleri {
 
 
         // S12 : listeden 5 den buyuk  sayi var mi? -anyMatch
+        System.out.println("listeden 5 den buyuk  sayi var mi? "+ list.stream().anyMatch(x -> x > 5));
+
         // S13 : listenin tum elemanlari sifirdan kucuk mu? -allMatch
+        System.out.println("listenin tum elemanlari sifirdan kucuk mu? "+ list.stream().allMatch(x -> x <0));
+
+
         // S14: listenin 100 e esit elemani yok mu ? -noneMatch
+        System.out.println("listenin 100 e esit elemani yok mu ?"+ list.stream().noneMatch(x->x==100));
+
+
         // S15: listenin sifira esit elemani yok mu? - noneMatch
+        System.out.println("listenin 0 e esit elemani yok mu ?"+ list.stream().noneMatch(x->x==0));
+
+
+
         // S16:  listenin ilk 5 elemanini topla? - limit(5)
+
+        System.out.println("list.stream().limit(5).reduce(0,(x,y)->x+y) = " + list.stream().limit(5).reduce(0, (x, y) -> x + y));
+
         // S17: listenin son bes elemaninin  listele -skip long
+
+        list.stream().skip(list.size()-5).forEach(x-> System.out.print(x+" "));
+
 
     }//main
 // S11 : peek ornegi cozelim - negatiflerin karelerinden list olusturalim

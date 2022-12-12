@@ -38,6 +38,10 @@ public class Methods_F {
         return n*n*n;
     }
 
+    public static int carpAll(int n, int m){
+        return m*n;
+    }
+
     public static boolean EbasliyorMu(String S){
         return S.startsWith("E");
     }
